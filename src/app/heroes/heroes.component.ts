@@ -5,7 +5,8 @@ import { HeroService } from '../hero.service';
 import { MessageService } from '../message.service';
 
 @Component({
-  selector: 'app-heroes',
+  // selector è il tag che va nell'html per poter usare questo component, vedere app.component.html
+  selector: 'app-heroes', 
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.css']
 })

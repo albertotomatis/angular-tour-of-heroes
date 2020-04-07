@@ -1,3 +1,4 @@
+// import della classe (come in Java) sono indispensabili per @NgModule altrimenti da errore
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -6,7 +7,8 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 
-// componenti importati nel mio modulo
+/* dopo aver importato classi, dichiaro la struttura del modulo
+componenti importati nel mio modulo */
 @NgModule({
   declarations: [
     AppComponent,
