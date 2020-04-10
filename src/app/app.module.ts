@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
+import { AppTitleComponent } from './app-title/app-title.component';
+
 
 /* dopo aver importato classi, dichiaro la struttura del modulo
 componenti importati nel mio modulo */
@@ -14,7 +16,9 @@ componenti importati nel mio modulo */
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    AppTitleComponent,
+
   ],
 // per funzionare importa anche questi
   imports: [
