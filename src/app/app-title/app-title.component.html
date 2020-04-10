@@ -1,1 +1,2 @@
-<h1>{{title | uppercase}}</h1>
+<!-- se hero è uguale ad undefined, stampa title  altrimenti hero.name -->
+<h1>{{ (hero == undefined ? title : hero.name) | uppercase }}</h1>

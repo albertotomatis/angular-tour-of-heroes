@@ -7,7 +7,7 @@ import { Hero } from '../hero';
   styleUrls: ['./app-title.component.css']
 })
 export class AppTitleComponent implements OnInit {
-title = "Tour of heroes"
+title: string = "Tour of heroes"
 @Input() hero: Hero
   constructor() { }
 
