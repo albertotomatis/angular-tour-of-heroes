@@ -1,2 +1,5 @@
-<!-- se hero è uguale ad undefined, stampa title  altrimenti hero.name -->
-<h1>{{ (hero == undefined ? title : hero.name) | uppercase }}</h1>
+<!-- se hero è uguale ad undefined, stampa title  altrimenti hero.name
+prima di cliccare sul nome dell'eroe è undefined 
+class.active viene data quando hero non è undefined, cioè quando si clicca sul nome dell'eroe -->
+<h1 [class.active]="hero != undefined">{{ (hero == undefined ? title : hero.name) | uppercase }}</h1>
+
